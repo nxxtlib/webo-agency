@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "bungcip.better-toml",
+    "coenraads.bracket-pair-colorizer",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
