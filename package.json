@@ -70,7 +70,7 @@
     "lint-fix": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
     "precommit": "npm run lint",
     "deploy-test": "cross-env NODE_ENV=production node --inspect-brk node_modules/.bin/nuxt generate",
-    "deploy": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 node_modules/.bin/nuxt build --target static && node_modules/.bin/nuxt export"
+    "deploy": "node_modules/.bin/nuxt build --target static && node_modules/.bin/nuxt export"
   },
   "engines": {
     "node": ">=8.0.0",
