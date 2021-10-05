@@ -12,7 +12,17 @@ export const state = () => ({
     },
     socialMedia: {
         name: "",
-        items: []
+        items: [
+            {
+                acf:{
+                    icon: {
+                        value: ''   
+                    },
+                },
+                title: '',
+                url: ''
+            }
+        ]
     },
 });
 

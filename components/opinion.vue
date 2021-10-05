@@ -1,22 +1,17 @@
 <template>
   <div class="relative opinion">
-    <!-- <h3
-      class="mb-5 text-base text-xl font-bold text-main"
+    <img 
+      src="~/assets/quote.png" 
+      alt="quote"
+      class="absolute top-0 left-0 z-negative"
     >
-      {{ title }}
-    </h3> -->
-      <img 
-        src="~/assets/quote.png" 
-        alt="quote"
-        class="absolute top-0 left-0 z-negative"
-      />
 
-     <div class="mb-5">
+    <div class="mb-5">
       <img 
         src="~/assets/avatar.png" 
         :alt="`${company} - ${author}`"
         class="mx-auto"
-      />
+      >
       <cite class="not-italic">
         <strong>{{ author }}</strong>
         <span>{{ company }}</span>

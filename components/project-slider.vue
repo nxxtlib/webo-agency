@@ -9,7 +9,10 @@
       @sliderMove="onSwipeStart"
       @slideChangeTransitionEnd="onSwipeEnd"
     >
-      <div class="swiper-wrapper project-slider" :class="{'is-swiping': isSwiping}">
+      <div
+        class="swiper-wrapper project-slider"
+        :class="{'is-swiping': isSwiping}"
+      >
         <div
           v-for="entry in slides"
           :key="entry.id"

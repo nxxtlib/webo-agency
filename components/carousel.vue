@@ -17,7 +17,7 @@
           svg-inline
           src="~/assets/logotype.svg"
           alt="WEBO"
-        />
+        >
       </div>
     </div>
   </component>

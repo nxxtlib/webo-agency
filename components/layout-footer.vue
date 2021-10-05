@@ -106,7 +106,7 @@
             v-for="(item, index) in menuSocialMedia.items"
             :key="index"
             class="flex-initial mb-4 mr-2"
-            :class="item.icon.value"
+            :class="item.acf.icon.value"
           >
             <a 
               :href="item.url"
@@ -115,7 +115,7 @@
               :title="item.title"
             >
               <svg
-                v-show="item.icon.value === 'fb'"
+                v-show="item.acf.icon.value === 'fb'"
                 width="30"
                 height="30"
                 viewBox="0 0 4 7"
@@ -137,7 +137,7 @@
               </svg>
 
               <svg
-                v-show="item.icon.value === 'in'"
+                v-show="item.acf.icon.value === 'in'"
                 width="30"
                 height="30"
                 viewBox="0 0 7 7"
@@ -161,7 +161,7 @@
               </svg>
 
               <svg
-                v-show="item.icon.value === 'li'"
+                v-show="item.acf.icon.value === 'li'"
                 width="30"
                 height="30"
                 viewBox="0 0 24 24"

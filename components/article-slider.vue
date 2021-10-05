@@ -9,11 +9,14 @@
       @sliderMove="onSwipeStart"
       @slideChangeTransitionEnd="onSwipeEnd"
     >
-      <div class="swiper-wrapper" :class="{'is-swiping': isSwiping}">
+      <div
+        class="swiper-wrapper"
+        :class="{'is-swiping': isSwiping}"
+      >
         <slot />
       </div>
     </div>
-      <div class="relative swiper-pagination lg:hidden" />
+    <div class="relative swiper-pagination lg:hidden" />
   </component>
 </template>
 
